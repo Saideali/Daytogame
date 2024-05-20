@@ -113,6 +113,9 @@ footer nav{
         height: 100vh;
         display: block;
     }
+    head nav.open{
+        left: 0;
+    }
 
 }
 @media (max-width: 750px) {
