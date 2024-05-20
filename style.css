@@ -105,6 +105,15 @@ footer nav{
     .menu{
         display: block;
     }
+    .head nav{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #0f1618;   
+        height: 100vh;
+        display: block;
+    }
+
 }
 @media (max-width: 750px) {
     footer{
@@ -133,4 +142,5 @@ footer nav{
         margin: auto;
         justify-content: space-between;
     }
+    
 }
