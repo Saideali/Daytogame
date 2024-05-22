@@ -24,39 +24,8 @@ body{
     display: none;
 }
 section{
-    max-width: 100%;
-    margin: auto;
-    /*display: flex;*/
-}
-.jogos{
     max-width: 75em;
-    background-color: #fff;
     margin: auto;
-    padding: 2em;
-}
-.jogo{
-    display: flex;
-    max-width: 900px;
-    margin: 2em 0 1em 0;
-}
-hr{
-    max-width: 100%;
-}
-.text-jogo{
-    margin: 0 0 0 1em;
-    max-width: 800px;
-}
-.text-jogo h2{
-    margin-bottom: .5em;
-    font-size: 19px;
-}
-.text-jogo p{
-    margin-bottom: .5em;
-    font-size: 13px;
-    color: #847d7a;
-}
-.by{
-    color: #b1b5ba;
 }
 footer{
     display: flex;
@@ -81,31 +50,6 @@ footer nav{
     padding: .8em;
 }
 @media (max-width: 600px) {
-    .jogos{
-        max-width: 75em;
-        background-color: #fff;
-        /*margin: auto;*/
-        padding: .5em;
-    }
-    a{
-        text-decoration: none;
-    }
-    .jogo{
-        display: block;
-        margin: 1em 0 1em 0;
-        padding: .5em;
-    }
-    
-    .img{
-        width: 500px;
-    }
-    .img-game{
-        width: 100%;
-    }
-    .text-jogo{
-        margin: 1em 0 0 0;
-        max-width: 800px;
-    }
     .menu{
         display: block;
     }
@@ -120,7 +64,6 @@ footer nav{
     head nav.open{
         left: 0;
     }
-
 }
 @media (max-width: 750px) {
     footer{
@@ -148,6 +91,5 @@ footer nav{
         display: flex;
         margin: auto;
         justify-content: space-between;
-    }
-    
+    }   
 }
